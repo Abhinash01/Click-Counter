@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    background: whitesmoke;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #count {
+    font-size: 4rem;
+    margin: 1rem 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
